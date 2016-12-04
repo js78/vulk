@@ -8,6 +8,7 @@ git:
 
 install:
   - pip install -r requirements.txt
+  - python setup.py install
 
 script:
 #- py.test .
