@@ -67,7 +67,7 @@ class Vector():
         return str(self._values)
 
     def __eq__(self, other):
-        return all(self._values == other.values)
+        return all(self._values == other._values)
 
     def __copy__(self):
         return self.__class__(self._values)
